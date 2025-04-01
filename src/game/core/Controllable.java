@@ -14,7 +14,7 @@ public abstract class Controllable extends ObjectWithPosition {
         super(x, y);
     }
 
-    public void move(Direction direction){
+    public void move(Direction direction) throws BoundaryExceededException{
 
         int movedX = x;
 
