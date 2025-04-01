@@ -200,7 +200,7 @@ public class GameController {
 
         ui.pause();
 
-        logger.log("Game " + (gameRunning ? "resumed" : "paused"));
+        logger.log("Game " + (gameRunning ? "resumed." : "paused."));
     }
 
     private void logMovement() {
