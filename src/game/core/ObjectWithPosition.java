@@ -4,7 +4,7 @@ public abstract class ObjectWithPosition implements SpaceObject{
     protected int x;
     protected int y;
 
-    ObjectWithPosition(int x, int y){
+    public ObjectWithPosition(int x, int y){
 
         this.x = x;
 
